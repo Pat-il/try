@@ -15,10 +15,10 @@ app.get('/hello', function (req, res) {
     res.send(person);
 });
 
-var server = app.listen(1107nction () {
+var server = app.listen(1107, function () {
     var host = server.address().address
     var port = server.address().port
-    console.log("Example app listening at http://localhost:1107ost, port)
+    console.log("Example app listening at http://localhost:1107", host, port)
 });
 
   
